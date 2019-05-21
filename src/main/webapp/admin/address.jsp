@@ -59,7 +59,7 @@
         </div>
     </div>
    </div>
-    <script src="https://heerey525.github.io/layui-v2.4.3/layui-v2.4.5/layui.js"></script>
+    <script src="<%=basePath%>assets/layui.all.js"></script>
     <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.14&key=4f4388a14723c2fc91b750e5f9b0ce33&plugin=AMap.Geocoder"></script>
    <script type="text/html" id="toolbarDemo">
      <div class="layui-btn-container">

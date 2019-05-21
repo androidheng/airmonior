@@ -82,7 +82,7 @@
 
         <div class="mobile-mask"></div>
     </div>
-    <script src="<%=basePath%>assets/layui.js"></script>
+   <script src="<%=basePath%>assets/layui.all.js"></script>
     <script src="<%=basePath%>js/index.js" data-main="home"></script>
 </body>
 </html>

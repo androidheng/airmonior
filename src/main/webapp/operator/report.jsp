@@ -34,7 +34,7 @@
         
         <div class="larry-seo-stats" id="larry-seo-stats" style="width:100%;height:600px"></div>
   </div>
-     <script src="https://heerey525.github.io/layui-v2.4.3/layui-v2.4.5/layui.js"></script>
+    <script src="<%=basePath%>assets/layui.all.js"></script>
     <script type="text/javascript" src="<%=basePath%>assets/echarts.min.js"></script>
     <script>
     layui.use('laydate', function(){
