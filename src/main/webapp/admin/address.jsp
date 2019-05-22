@@ -122,6 +122,7 @@
   	                	   if(res.success){
   	                		   layer.close(layero);
   	                		//当前页的刷新
+  	                		   $("#box").hide()
  	                		    $(".layui-laypage-btn")[0].click(); 
   	                	   }else{
   	                		   layer.alert('操作失败！！！',{icon:5});
@@ -156,6 +157,7 @@
   	        		
   	          
   	        },end:function(layero){
+  	          $("#box").hide()
   	        	layer.close(layero)
   	        }
   	      });

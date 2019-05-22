@@ -215,6 +215,7 @@
         }
         ,end:function(layero){
            layer.close(layero) 
+           $("#box").hide()
            clearInterval(timer)
         }
       });

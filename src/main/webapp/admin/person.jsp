@@ -97,7 +97,7 @@
         });
        }
        function getoption(data){
-    	   console.log(data)
+    	
     	    $.ajax({
                 url:"<%=basePath%>city/findAll",
                 type:'post',//method请求方式，get或者post
@@ -152,6 +152,7 @@
   	                   success:function(res){//res为相应体,function为回调函数
   	                	   if(res.success){
   	                		   layer.close(index);
+  	                		   $("#box").hide()
   	                		  $(".layui-laypage-btn")[0].click();
   	                		 }else{
   	                		   layer.alert('操作失败！！！',{icon:5});
@@ -166,6 +167,7 @@
   	        	getoption(data)
   	        }
   	       ,end:function(index){
+  	    	    $("#box").hide()
   	        	layer.close(index)
   	        }
   	      });
